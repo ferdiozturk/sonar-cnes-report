@@ -19,10 +19,7 @@ notifications:
 
 deploy:
   provider: releases
-  api_key: c4c6db4c1ba8d34d58af5dd7576e389432c84fd7
+  api_key: 6b95e86a4f410d38f3cc973f6ec6214de5c36a06
   file: target/sonar-cnes-report.jar
   skip_cleanup: true
   draft: true
-  on:
-    branch: master
-    repo: ferdiozturk/sonar-cnes-report
