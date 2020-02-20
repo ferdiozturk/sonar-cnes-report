@@ -2,9 +2,6 @@ language: java
 sudo: required
 install: true
 
-services:
-  - docker
-
 jdk:
   # - oraclejdk9
   - oraclejdk11
@@ -29,3 +26,4 @@ deploy:
   draft: true
   on:
     branch: master
+    repo: ferdiozturk/sonar-cnes-report
