@@ -64,4 +64,3 @@ deploy:
   draft: true
   on:
     branch: master
-    condition: $sonarqube = none
